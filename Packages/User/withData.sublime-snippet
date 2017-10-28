@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+const withData = graphql(${1:DATA_QUERY}, {
+  props: ({ data: { loading, ${2:node} } }) => ({ loading, ${2:node} })
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>withData</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
